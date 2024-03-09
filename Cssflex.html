@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexcontainer{
+            display: flex;
+             flex-direction: row;
+             background-color: goldenrod;
+             flex-wrap: wrap;
+             justify-content: center;
+        }
+        div{
+            background-color: greenyellow;
+            line-height: 75px;
+            width:100px ;
+            margin: 20px;
+            font-size: 40px;
+            text-align: center;
+            background-image: url("background.jpg");
+
+        }
+        ul{
+            background-color: aquamarine;
+            list-style-type:none;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+    <span class="flexcontainer">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-grow:1;">4</div>
+        <div>4</div>
+        <div>5</div>
+    </ul>
+
+    </span>
+</body>
+</html>

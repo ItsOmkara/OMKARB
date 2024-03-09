@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Collaps</title>
+    <style>
+        table,th,td{
+        
+        border-collapse:collapse;
+        /* border-collapse:separate; */
+        border-spacing:30px 40px ;
+        empty-cells:hide ;
+        padding:20px ;
+        border color:red;
+        }
+        td{
+            vertical-align: middle ;
+        }
+        /* tr:hover{
+            background-color: chartreuse;
+        } */
+        tr:nth-child(Even)
+        {
+            background-color: gold;
+        }
+    /* th{
+     color: blueviolet;
+        background-color: aqua;   
+    } */
+    </style>
+
+</head>
+<body>
+    <table border="none">
+        <caption>Student Education Information</caption>
+     <tr>
+    <th>Name</th>
+    <th>Branch</th>
+    <th>Class</th>
+     </tr>
+<thead>
+    <tbody>
+       
+        <tr>
+            <td>Abhi</td>
+            <td>B.Tech</td>
+            <td>Final Year</td>
+        </tr>
+        <tr>
+            <td>Avi</td>
+            <td>B.Tech</td>
+            <td>Final Year</td>
+        </tr>
+        <tr>
+            <td>Abhi</td>
+            <td>B.Tech</td>
+            <td>Final Year</td>
+        
+        </tr>
+    </tbody>
+</thead>
+
+
+    </table>
+</body>
+</html>

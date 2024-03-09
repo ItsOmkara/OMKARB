@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties</title>
+</head>
+<style>
+    ul{
+        background-color: rgb(214, 196, 231);
+        list-style-type: none;
+
+        height: 40px;
+        line-height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    @keyframes Picture{
+        /* from{background-color: black;} */
+        /* to{background-color: blue;} */
+        0%{background-image: url(4kimage4.webp);
+        background-size: cover;}
+        25%{background-image: url(4kimage);
+        background-size: cover;}
+        50%{background-image: url(4kimage2.jpg);
+        background-size: cover;}            
+        75%{background-image: url(4kimage3.webp);
+        background-size: cover;}            
+        100%{background-image: url(4kimage5.avif);
+        background-size: cover;}            
+     }
+    li{
+        display: inline;
+        background-color: red;
+        border-radius: 50px;
+        list-style-type: none;
+        text-align: center;
+        height: 40px;
+        width: 70px;
+    }
+    img{display: inline; 
+        border-radius: 50px;
+        height: 40px;
+        width: 40px;
+        position:absolute;
+        left:10px
+       
+    }
+    </style>
+<body>
+    <ul>
+        <img src="blackrock.jpg" alt="Error">
+        <li><a href="">Om</a></li>
+        <li><a href="">New File</a></li>
+        <li><a href="">Information</a></li>
+        <li><a href="">About Us</a></li>
+        <button>Login</button>
+    </ul>
+</body>
+</html>

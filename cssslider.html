@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div{
+        height: 700px;
+        width: 800px;
+        animation-name:Picture ;
+        animation-duration: 8s;
+        /* background-color: brown; */
+        animation-iteration-count: 4;
+        position: absolute;
+        animation: Picture 12s infinite linear;
+        top: 10%;
+        left: 20%;
+    }
+    @keyframes Picture{
+        /* from{background-color: black;} */
+        /* to{background-color: blue;} */
+        0%{background-image: url(4kimage4.webp);
+        background-size: cover;}
+        25%{background-image: url(4kimage);
+        background-size: cover;}
+        50%{background-image: url(4kimage2.jpg);
+        background-size: cover;}            
+        75%{background-image: url(4kimage3.webp);
+        background-size: cover;}            
+        100%{background-image: url(4kimage5.avif);
+        background-size: cover;}            
+     }
+    </style>
+</head>
+<body>
+<div>
+    Omkar
+    
+</div>
+</body>
+</html>
+       
